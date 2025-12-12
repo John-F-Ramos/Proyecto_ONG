@@ -69,7 +69,7 @@ print("\n--- 4. Entrenando Modelos ---")
 
 # Usamos class_weight='balanced'
 modelo_lr = Pipeline(steps=[('preprocessor', preprocessor),
-                            ('classifier', LogisticRegression(random_state=42, class_weight='balanced'))])
+                            ('classifier', LogisticRegression(random_state=42, class_weight={0:1, 1:3}))])
 modelo_lr.fit(X_train, y_train)
 
 modelo_rf = Pipeline(steps=[('preprocessor', preprocessor),
