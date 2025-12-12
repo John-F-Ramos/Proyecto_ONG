@@ -126,7 +126,7 @@ df['probabilidad_abandono'] = modelo_lr.predict_proba(df[features])[:, 1]
 
 # Segmentación de Riesgo
 df['riesgo_categoria'] = pd.cut(df['probabilidad_abandono'], 
-                                bins=[0, 0.4, 0.7, 1.0], 
+                                bins=[0, 0.4, 0.5, 1.0], 
                                 labels=['Bajo', 'Medio', 'Alto'])
 
 # IMPRIMIR RESUMEN PARA FANY EN CONSOLA 
