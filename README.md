@@ -160,13 +160,7 @@ El archivo `metricas_modelo_MARIO.csv` incluye:
 
 ## 🤝 Contribuciones
 
-Este proyecto es parte de un trabajo académico de **Ciencia de Datos**.
-
-## 👥 Equipo
-
-- **Desarrollo y Modelado**: John F. Ramos
-- **Dashboard (Fany)**: Visualización de predicciones
-- **Análisis de Negocio (Mario)**: Interpretación de métricas
+Este proyecto es parte de un trabajo académico de **Ciencia de Datos II**.
 
 ## 📝 Licencia
 
